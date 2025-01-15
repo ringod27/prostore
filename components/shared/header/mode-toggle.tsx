@@ -61,7 +61,6 @@ const ModeToggle = () => {
         >
           Light
         </DropdownMenuCheckboxItem>
-        dark
       </DropdownMenuContent>
     </DropdownMenu>
   );
