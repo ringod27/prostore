@@ -47,7 +47,7 @@ const ModeToggle = () => {
           checked={theme === "system"}
           onClick={() => setTheme("system")}
         >
-          System
+          System Test
         </DropdownMenuCheckboxItem>
         <DropdownMenuCheckboxItem
           checked={theme === "dark"}
