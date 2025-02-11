@@ -1,7 +1,7 @@
 "use server";
 
 import { isRedirectError } from "next/dist/client/components/redirect-error";
-import { signInFormSchema, signUpFormSchema } from "../validator";
+import { signInFormSchema, signUpFormSchema } from "../validators";
 import { signIn, signOut } from "@/auth";
 
 import { hashSync } from "bcrypt-ts-edge";
