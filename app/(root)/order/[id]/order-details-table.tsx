@@ -101,7 +101,7 @@ const OrderDetailsTable = ({
         disabled={isPending}
         onClick={() =>
           startTransition(async () => {
-            const res = await updateOrderToPaidCOD(order.id);
+            const res = await updateOrderToPaidByCOD(order.id);
             toast({
               variant: res.success ? "default" : "destructive",
               description: res.message,
